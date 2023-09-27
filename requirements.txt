@@ -1,0 +1,3 @@
+secure-smtplib
+python-dotenv
+PySocks
