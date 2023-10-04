@@ -18,7 +18,7 @@ This project provides a solution for sending bulk emails using multiple bots con
 1. Python environment.
 2. `smtplib` and `os` Python standard libraries.
 3. SMTP sample file (`smtps.txt`) with the following structure:
-URL: <URL>
+`URL: <URL>
 METHOD: <METHOD>
 MAILHOST: <SMTP_HOST>
 MAILPORT: <SMTP_PORT>
@@ -26,6 +26,7 @@ MAILUSER: <SMTP_USER>
 MAILPASS: <SMTP_PASS>
 MAILFROM: <MAIL_FROM> (Optional)
 FROMNAME: <FROM_NAME> (Optional)
+\n(NEW LINE BETWEEN EACH SMTP)`
 
 
 ## Setup
